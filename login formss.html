@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+    <style>
+        body {
+            background-image: url(https://img.freepik.com/free-vector/realistic-coffee-time-background-with-coffee-cup_79603-1559.jpg);
+            background-size: cover;
+
+        }
+
+        form [type="text"] {
+            margin-left: 50px;
+            margin-top: 20px;
+            height: 35px;
+            width: 400px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: none;
+            padding-left: 20px;
+
+
+        }
+
+        form [type="number"] {
+            margin-left: 50px;
+            height: 35px;
+            width: 400px;
+            border-radius: 10px;
+            border: none;
+            margin-top: 10px;
+            padding-left: 20px;
+
+
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 30px;
+            color: white;
+
+        }
+
+        .anandh {
+            text-align: center;
+            color: black;
+            margin-bottom: 10px;
+
+
+        }
+
+        .navani {
+            text-align: center;
+            margin-bottom: 30px;
+
+
+        }
+
+        button {
+            margin-left: 170px;
+            border: none;
+            margin-bottom: 30px;
+            font-weight: 900;
+            height: 35px;
+            width: 150px;
+            margin-top: 20px;
+            border-radius: 10px;
+            background-color: black;
+        }
+
+        .anandh a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .navani a {
+            text-decoration: none;
+            color: black;
+        }
+
+        form {
+            border: 1px solid black;
+            height: 440px;
+            width: 500px;
+            margin: auto;
+            margin-top: 130px;
+            border-radius: 20px;
+            border: none;
+            backdrop-filter: blur(50px);
+            box-shadow: 0px 0px 20px 5px gray;
+
+        }
+
+        button a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Large Tablets 992px - 1200px */
+@media (max-width: 1200px) {
+    .paraaaa p, .content0 p {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .containers .con p, .containers .nextcon {
+        margin-left: 0;
+    }
+
+    .i img {
+        margin-left: 0;
+    }
+}
+
+/* Tablets 768px - 992px */
+@media (max-width: 992px) {
+    .paraaaa p, .content0 p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .containers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .con p, .nextcon {
+        width: 250px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .i img {
+        width: 70%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    form {
+        width: 80%;
+        height: auto;
+        margin-top: 80px;
+    }
+
+    form [type="text"], form [type="number"] {
+        width: 90%;
+    }
+
+    button {
+        width: 50%;
+        margin-left: 0;
+    }
+}
+
+/* Mobile 0px - 767px */
+@media (max-width: 767px) {
+    .paraaaa p, .content0 p {
+        width: 95%;
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+    .img10, .img11, .img12, .img13,
+    .imgs1, .imgs2, .imgs3, .imgs4, .imgs5, .imgs6,
+    .look0 img, .name-img0 img {
+        width: 95%;
+        height: auto;
+    }
+
+    .containers {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .con p, .nextcon {
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
+        font-size: 15px;
+    }
+
+    .i img {
+        width: 70%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    form {
+        width: 95%;
+        height: auto;
+        margin-top: 50px;
+        padding: 20px 10px;
+    }
+
+    button {
+        width: 60%;
+        font-size: 16px;
+        margin-left: 100px;
+    }
+
+    .foot p {
+        font-size: 15px;
+        height: auto;
+        padding: 15px 0;
+    }
+}
+    </style>
+</head>
+
+<body>
+
+    <form action="#">
+        <h1>Personal Information</h1>
+        <input type="text" name="" id="" placeholder="Enter Your Name"><br>
+        <input type="number" name="" id="" placeholder="Enter Your Mobile Number">
+        <input type="text" name="" id="" placeholder="Enter Your Address">
+        <input type="number" name="" id="" placeholder="Enter Your Pin Code">
+        <input type="text" name="" id="" placeholder="Enter Nearest Landmark"><br>
+        <button><a href="">Login</a></button>
+
+
+    </form>
+</body>
+
+</html>

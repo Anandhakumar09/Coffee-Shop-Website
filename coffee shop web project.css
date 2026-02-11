@@ -1,0 +1,1072 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+}
+nav{
+    display: flex;
+    height: 150px;
+    width: 100%;
+}
+.icon{
+    margin-top: 68px;
+    margin-left: 20px;
+    gap: 30px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.logo img{
+    height: 160px;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(83, 8, 8);
+    font-weight: 600;
+}
+
+.marque{
+    
+    text-align: center;
+    height: 35px;
+    padding-top: 10px;
+    color: white;
+    background-color: rgb(77, 9, 9);
+}
+.video{
+    height: 100vh;
+    width: 100%;
+    
+}
+.video video{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+.title p{
+    margin-top: 30px;
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+.price{
+    margin-top: 10px;
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.img img{
+    height: 200px;
+    width: 250px;
+}
+a button{
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 35px;
+    width: 190px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(75, 10, 10);
+    color: white;
+    border: none;
+}
+button{
+     margin-left: 30px;
+    margin-top: 30px;
+    height: 35px;
+    width: 190px;
+    background-color: rgb(75, 10, 10);
+    color: white;
+    border: none;
+}
+.productbox{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.background img{
+    border: 1px solid;
+}
+.paragraph p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.paragrap p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-weight: 1000px;
+    font-size: 40px;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(53, 52, 52);
+}
+.para{
+    margin-top: 30px;
+    height: 500px;
+    background-size: cover;
+    background-image: url(./image/background\ our\ coff.jpg);
+    box-shadow: 0px 0px 15px 4px;
+}
+.button button{
+    height: 45px;
+    font-weight: 900;
+    margin-top: 50px;
+    border: none;
+    margin-left: 560px;
+    box-shadow: 0px 0px 10px 5px rgb(104, 32, 32);
+}
+.box{
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+}
+.logos img{
+   margin-left: 100px;
+   height: 90px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.tit h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.tit p{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+}
+.headline h1{
+    font-size: 35px;
+}
+.imgmain{
+    height: 450px;
+    width: 400px;
+    margin-top: 40px;
+}
+.boxs{
+   display: flex;
+   justify-content: space-evenly;
+   transition-duration: 1s;
+   transition-property: initial;
+   transform: translatez(50px);
+
+   
+}
+.im h1{
+    padding-top: 200px;
+}
+.im1 h1{
+
+    padding-top: 200px;
+}
+.im2 h1{
+    padding-top: 200px;
+}
+.im img{
+    height: 450px;
+    width: 400px; 
+    background-size: cover;
+   box-shadow: 0px 0px 10px 4px rgb(114, 35, 35);
+    
+}
+.im img:hover{
+    transform: scale(1.1);
+}
+.im1 img{
+    height: 450px;
+    width: 400px; 
+    background-size: cover;
+    box-shadow: 0px 0px 10px 7px rgb(184, 180, 180);
+}
+.im1 img:hover{
+    transform: scale(1.1);
+}
+.im2 img{
+    height: 450px;
+    width: 400px; 
+    background-size: cover;
+    box-shadow: 0px 0px 10px 5px gray;
+   
+}
+.im2 img:hover{
+    transform: scale(1.1);
+}
+.journalimg img{
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+    box-shadow: 0px 0px 15px 5px rgb(114, 35, 35);
+}
+.journal h1{
+   font-size: 40px;
+}
+.brewingvideo video{
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;
+}
+.yourstorylogo img{
+    height: 250px;
+    width: 400px;
+    margin-left: 473px;
+}
+.featur h1{
+    margin-top: 40px;
+}
+.paraaa p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.paara p{
+    text-align: center;
+    color: gray;
+}
+.hed img{
+    margin-left: 480px;
+    height: 250px;
+}
+.paaara p{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content p{
+    text-align: center;
+    color: gray;
+}
+.im6 img{
+    margin-left: 550px;
+    height: 250px;
+}
+.headers p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.s p{
+    text-align: center;
+}
+.imm img{
+    margin-left: 520px;
+    height: 250px;
+    
+}
+.heed p{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.small p{
+     text-align: center;
+    color: gray;
+}
+.s p{
+    text-align: center;
+    color: gray;
+}
+.story h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.smallstory p{
+    text-align: center;
+    color: gray;
+}
+.but button{
+    width: 160px;
+    margin-left: 600px;
+    margin-top: 50px;
+    border: none;
+
+    box-shadow: 0px 0px 10px 5px rgb(121, 43, 43);
+}
+.backimg{
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    background-size: cover;
+    background-image: url(./image/background\ coffeee.jpg);
+    box-shadow: 0px 0px 10px 5px;
+}
+.p p{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 200px;
+}
+.butt button{
+    width: 150px;
+    margin-left: 600px;
+    margin-top: 60px;
+    background-color: black;
+    border: 1px solid brown;
+}
+
+
+.containers{
+            display: flex;
+        }
+        .con p{
+             height: 200px;
+             text-align: center;
+            width:200px;
+            margin-top: 130px;
+            margin-left: 100px;
+            
+            
+        }
+        .nextcon{
+            height: 200px;
+            text-align: center;
+            width:200px;
+            margin-top: 130px;
+            margin-left: 100px;
+        }
+        .i img{
+            height: 150px;
+            width: 200px;
+            margin-top: 90px;
+            margin-left: 160px;
+        }
+        .i .contact p{
+            text-align: center;
+             margin-left: 150px;
+             height: 30px;
+        }
+        .iicon p{
+           margin-top: 180px;
+           margin-left: 110px;
+        }
+        .iicon p i{
+             margin-top: 10px;
+             
+        }
+        .foot p{
+            background-color: rgb(82, 14, 14);
+            height: 50px;
+            border: 1px solid;
+        
+            text-align: center;
+            padding-top: 16px;
+            color: white;
+            margin-top: 30px;
+        }
+
+/* mediaquery */
+
+/* nav bar */
+
+
+@media (max-width: 1200px){
+    ul{
+        margin-left: 80px;
+        gap: 30px;
+    }
+
+    .logo img{
+        height: 140px;
+    }
+
+    nav{
+        height: 130px;
+    }
+}
+
+/* 992px*/
+@media (max-width: 992px){
+    ul{
+        margin-left: 50px;
+        gap: 25px;
+    }
+
+    .logo img{
+        height: 150px;
+        width: 150px;
+        margin-left: 310px;
+    }
+
+    nav{
+        height: 120px;
+    }
+
+    .icon{
+        
+        margin-top: 50px;
+        font-size: 14px;
+    }
+    .icon a{
+        margin-left: 360px;
+    }
+}
+
+/* 768px  */
+@media (max-width: 768px){
+    nav{
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    ul{
+        margin-left: 0;
+        margin-top: 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo img{
+        height: 120px;
+    }
+    a button{
+        margin-left: 50px;
+    }
+
+    .icon{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
+
+/* 576px Mobile Large */
+@media (max-width: 576px){
+    ul{
+        gap: 12px;
+    }
+    .video video{
+        height: 400px;
+        margin-top: 40px;
+    }
+
+    a button{
+        margin-left: 50px;
+    }
+
+    .logo img{
+        height: 150px;
+        margin-left: 140px;
+    }
+
+    .icon{
+        font-size: 13px;
+        margin-left: 195px;
+    }
+    .icon a{
+        margin-left: 189px;
+    }
+
+    .marque{
+        font-size: 14px;
+    }
+}
+
+/*  400px Mobile Small */
+@media (max-width: 400px){
+    .logo img{
+        height: 110px;
+        margin-left: 130px;
+    }
+
+    ul li a{
+        font-size: 14px;
+    }
+    .product a button{
+        margin-left: 150px;
+    }
+
+    .icon{
+        margin-left: 174px;
+        font-size: 12px;
+    }
+
+    .marque{
+        height: 30px;
+        padding-top: 8px;
+        font-size: 13px;
+    }
+    
+}
+
+
+/* video section */
+
+/* 1200px  */
+@media (max-width: 1200px){
+    ul{
+        margin-left: 100px;
+        gap: 30px;
+    }
+    .logo img{
+        height: 140px;
+    }
+    .video video{
+        height: 500px;
+    }
+}
+
+/* 992px */
+@media (max-width: 992px){
+    ul{
+        margin-left: 50px;
+        gap: 25px;
+    }
+    .logo img{
+        height: 130px;
+    }
+    .video video{
+        height: 450px;
+    }
+}
+
+/* 768px Tablet */
+@media (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    ul{
+        margin-left: 0;
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo img{
+        height: 120px;
+    }
+
+    .icon{
+        margin-top: 10px;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .video{
+        height: auto;
+    }
+
+    .video video{
+        height: 350px;
+    }
+
+    .productbox{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .img img{
+        height: 180px;
+        width: 220px;
+    }
+}
+
+/* 576px Mobile */
+@media (max-width: 576px){
+
+    ul li a{
+        font-size: 15px;
+    }
+
+    .video video{
+        height: 300px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    .title p, .price{
+        font-size: 16px;
+    }
+
+    .img img{
+        height: 150px;
+        width: 200px;
+    }
+
+    a button, button{
+        width: 160px;
+        margin-left: 0;
+    }
+}
+
+/* 400px Small Mobile */
+@media (max-width: 400px){
+
+    .logo img{
+        height: 90px;
+    }
+
+    ul li a{
+        font-size: 14px;
+    }
+
+    .video video{
+        height: 250px;
+    }
+
+    .title p, .price{
+        font-size: 14px;
+    }
+
+    .img img{
+        height: 140px;
+        width: 180px;
+    }
+
+    a button, button{
+        width: 150px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 992px){
+    a button{
+        margin-left: 20px;
+        width: 170px;
+        font-size: 16px;
+    }
+}
+
+/* Small Mobile 480px */
+@media (max-width: 480px){
+    a button{
+        margin-left: 17%;
+        width: 140px;
+        height: 32px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .button button{
+        margin-left: 450px;
+    }
+}
+
+/* product section */
+
+/* 992px  */
+@media (max-width: 992px){
+    h2{
+        font-size: 35px;
+    }
+    .para{
+        height: 450px;
+    }
+    .paragraph p, .paragrap p{
+        font-size: 22px;
+    }
+    .button button{
+        margin-left: 360px;
+    }
+}
+
+/* 768px Tablet*/
+@media (max-width: 768px){
+    .para{
+        height: 400px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .paragraph p, .paragrap p{
+        font-size: 20px;
+    }
+    .button button{
+        margin-left: 0;
+        display: block;
+        margin: 30px auto;
+        width: 200px;
+    }
+}
+
+/*576px Mobile */
+@media (max-width: 576px){
+    h2{
+        font-size: 26px;
+    }
+    .para{
+        height: 390px;
+    }
+    .paragraph p, .paragrap p{
+        font-size: 18px;
+    }
+    .button button{
+        width: 180px;
+        height: 40px;
+    }
+}
+
+/* 400px Small Mobile */
+@media (max-width: 400px){
+    h2{
+        font-size: 22px;
+    }
+    .paragraph p, .paragrap p{
+        font-size: 15px;
+    }
+    .para{
+        height: 320px;
+    }
+    .button button{
+        width: 160px;
+        height: 38px;
+    }
+}
+
+/* box */
+
+/*1200px */
+@media (max-width: 1200px){
+    .imgmain{
+        width: 350px;
+        height: 420px;
+    }
+    .im img, .im1 img, .im2 img{
+        width: 350px;
+        height: 420px;
+    }
+}
+
+/* 992px*/
+@media (max-width: 992px){
+    .contain{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .box{
+        width: 100%;
+        height: 260px;
+    }
+
+    .logos img{
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+        height: 80px;
+        
+    }
+
+    .imgmain,
+    .im img, .im1 img, .im2 img{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+/*Tablet 768px*/
+@media (max-width: 768px){
+    .contain{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        width: 100%;
+        height: 240px;
+    }
+
+    .boxs{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .imgmain,
+    .im img, .im1 img, .im2 img{
+        width: 100%;
+        height: 380px;
+    }
+}
+
+/* Mobile 576px */
+@media (max-width: 576px){
+    .headline h1{
+        font-size: 28px;
+    }
+    .keyoffer h1{
+        margin-top: 110px;
+    }
+
+    .box{
+        width: 100%;
+        height: 200px;
+    }
+
+    .imgmain,
+    .im img, .im1 img, .im2 img{
+        width: 100%;
+        height: 340px;
+        gap: 20px;
+        margin-top: 10px;
+    }
+}
+
+/* Small Mobile 400px */
+@media (max-width: 400px){
+    .headline h1{
+        font-size: 24px;
+    }
+
+    .imgmain,
+    .im img, .im1 img, .im2 img{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
+/* brew video */
+
+/* 1200px*/
+@media (max-width: 1200px){
+    .yourstorylogo img,
+    .hed img,
+    .im6 img,
+    .imm img{
+        margin-left: 350px;
+    }
+    .but button,
+    .butt button{
+        margin-left: 450px;
+    }
+}
+
+/* 992px */
+@media (max-width: 992px){
+    .yourstorylogo img,
+    .hed img,
+    .im6 img,
+    .imm img{
+        margin-left: 280px;
+    }
+    .journal h1{
+        font-size: 35px;
+    }
+    .brewingvideo video{
+        height: 500px;
+        width: 100%;
+    }
+    .but button,
+    .butt button{
+        margin-left: 350px;
+    }
+}
+
+/*768px Tablet*/
+@media (max-width: 768px){
+
+    .yourstorylogo img,
+    .hed img,
+    .im6 img,
+    .imm img{
+        margin-left: 0;
+        display: block;
+        margin: 20px auto;
+        width: 300px;
+        height: 200px;
+    }
+
+    .journal h1,
+    .paaara p,
+    .headers p,
+    .heed p,
+    .story h1{
+        font-size: 26px;
+    }
+
+    .brewingvideo video{
+        height: 400px;
+        width: 100%;
+    }
+
+    .but button,
+    .butt button{
+        display: block;
+        margin: 40px auto;
+    }
+
+    .p p{
+        font-size: 30px;
+        padding-top: 150px;
+    }
+
+    .backimg{
+        height: 400px;
+        width: 100%;
+    }
+}
+
+/* 576px Mobile*/
+@media (max-width: 576px){
+
+    .yourstorylogo img,
+    .hed img,
+    .im6 img,
+    .imm img{
+        width: 250px;
+        height: 170px;
+    }
+
+    .journalimg img{
+        height: 350px;
+        width: 100%;
+    }
+
+    .brewingvideo video{
+        height: 300px;
+        width: 100%;
+    }
+
+    .paaara p,
+    .headers p,
+    .heed p{
+        font-size: 22px;
+    }
+
+    .p p{
+        font-size: 26px;
+        padding-top: 120px;
+    }
+
+    .backimg{
+        height: 350px;
+        width: 100%;
+    }
+
+    .but button,
+    .butt button{
+        width: 140px;
+    }
+}
+
+/* 400px Small Mobile */
+@media (max-width: 400px){
+    .yourstorylogo img,
+    .hed img,
+    .im6 img,
+    .imm img{
+        width: 220px;
+        height: 150px;
+    }
+
+    .journalimg img{
+        height: 300px;
+        width: 100%;
+    }
+
+    .brewingvideo video{
+        height: 250px;
+        width: 100%;
+    }
+
+    .p p{
+        font-size: 22px;
+        padding-top: 100px;
+    }
+
+    .backimg{
+        height: 300px;
+        width: 100%;
+    }
+
+    .but button,
+    .butt button{
+        width: 130px;
+    }
+}
+
+
+/* FOOTER */
+
+@media (max-width: 992px){
+
+    .containers{
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .con p,
+    .nextcon{
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .i img{
+        margin: 20px auto;
+        display: block;
+        width: 40%;
+        height: auto;
+        
+    }
+
+    .i .contact p{
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .iicon p{
+        margin: 20px auto;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .iicon p i{
+        margin: 5px;
+    }
+    .foot p{
+        font-size: 14px;
+        padding-top: 12px;
+        height: 45px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

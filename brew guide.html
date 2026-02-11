@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./coffee shop web project.css">
+    <style>
+        .video1 video {
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .paraaaa p {
+            text-align: center;
+            margin-top: 40px;
+            width: 1100px;
+            font-size: 18px;
+            margin-left: 150px;
+
+        }
+
+        /*  Tablet */
+@media (max-width: 992px) {
+    .paraaaa p {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 30px;
+    }
+}
+
+
+/*Mobile 0–600px */
+@media (max-width: 600px) {
+    .paraaaa p {
+        width: 90%;
+        margin-left: 5%;
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+        .img10 {
+            background-image: url(https://thumbs.dreamstime.com/b/cream-pouring-iced-coffee-glass-cold-milk-down-cup-poster-concept-ai-generated-389741119.jpg);
+            height: 550px;
+            width: 600px;
+            background-size: cover;
+            margin-top: 50px;
+            box-shadow: 0px 0px 15px 5px gray;
+        }
+
+        .img11 {
+            background-image: url(./image/french\ press.webp);
+            height: 550px;
+            width: 600px;
+            background-size: cover;
+            margin-top: 50px;
+            box-shadow: 0px 0px 15px 5px gray;
+        }
+
+        .img12 {
+            background-image: url(https://www.arakucoffee.in/cdn/shop/files/ArakuProductShootNovember2023-18_1.jpg?v=1701155610&width=4000);
+            height: 550px;
+            width: 600px;
+            background-size: cover;
+            margin-top: 30px;
+            box-shadow: 0px 0px 15px 5px gray;
+        }
+
+        .img13 {
+            background-image: url(https://m.media-amazon.com/images/I/81dlyaVbsvL._UF894,1000_QL80_.jpg);
+            height: 550px;
+            width: 600px;
+            background-size: cover;
+            margin-top: 30px;
+            box-shadow: 0px 0px 15px 5px gray;
+        }
+
+        .img13 img:hover {
+            transform: scale(1.1);
+        }
+
+
+        
+        .imgs0 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .img10 h1 {
+            padding-top: 250px;
+            color: rgb(86, 143, 0);
+        }
+
+        .img11 h1 {
+            padding-top: 250px;
+            color: rgb(86, 143, 0);
+        }
+
+        .img12 h1 {
+            padding-top: 250px;
+            color: rgb(86, 143, 0);
+        }
+
+        .img13 h1 {
+            padding-top: 250px;
+            color: rgb(86, 143, 0);
+        }
+
+        a button {
+            margin-left: 555px;
+            margin-top: 70px;
+            height: 50px;
+            width: 230px;
+            border-radius: 40px;
+            font-size: 20px;
+            box-shadow: 0px 0px 15px 5px rgb(111, 25, 25);
+            border: none;
+        }
+
+
+        /* LARGE TABLET (max-width: 1200px */
+@media (max-width: 1200px) {
+    a button {
+        width: 220px;
+        font-size: 19px;
+    }
+}
+
+
+/* TABLET max-width: 992px */
+@media (max-width: 992px) {
+    a button {
+        width: 210px;
+        height: 48px;
+        font-size: 18px;
+        margin-top: 60px;
+        margin-left: 370px;
+    }
+}
+
+
+/*  MOBILE VIEW max-width: 600px*/
+
+@media (max-width: 600px) {
+    a button {
+        width: 190px;
+        height: 45px;
+        font-size: 17px;
+        margin-top: 40px;
+        margin-left: 120px;
+    }
+}
+
+
+/* SMALL MOBILE max-width: 420px */
+@media (max-width: 420px) {
+    a button {
+        width: 170px;
+        height: 42px;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+}
+
+
+        .poster0 img {
+            width: 100%;
+            height: 500px;
+            margin-top: 30px;
+            border-radius: 20px;
+        }
+
+        .content0 p {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .look0 {
+            margin-left: 30px;
+            width: 400px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        .look0 img {
+            width: 300px;
+            height: 400px;
+        }
+
+        .look1 {
+            display: flex;
+        }
+
+        .look0 img:hover {
+            transform: scale(1.1);
+        }
+
+        /* MOBILE 0px – 600px */
+@media (max-width: 600px) {
+
+    .look1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .look0 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .look0 img {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+
+/* TABLET 600px – 1024px*/
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    .look1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .look0 {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .look0 img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+
+/* LARGE DESKTOP 1024px*/
+@media (min-width: 1024px) {
+
+    .look1 {
+        display: flex;
+    }
+
+    .look0 img {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+
+
+        .containers {
+            display: flex;
+        }
+
+        .con p {
+            height: 200px;
+            text-align: center;
+            width: 200px;
+            margin-top: 130px;
+            margin-left: 100px;
+
+
+        }
+
+        .nextcon {
+            height: 200px;
+            text-align: center;
+            width: 200px;
+            margin-top: 130px;
+            margin-left: 100px;
+        }
+
+        .i img {
+            height: 150px;
+            width: 200px;
+            margin-top: 100px;
+            margin-left: 120px;
+        }
+
+        .i .contact p {
+            text-align: center;
+            margin-left: 110px;
+            height: 30px;
+        }
+
+        .iicon p {
+            margin-top: 180px;
+            margin-left: 110px;
+        }
+
+        .iicon p i {
+            margin-top: 10px;
+        }
+
+        .foot p {
+            background-color: rgb(82, 14, 14);
+            height: 50px;
+            border: 1px solid;
+            text-align: center;
+            padding-top: 16px;
+            color: white;
+            margin-top: 30px;
+        }
+
+
+        /* LARGE TABLET max-width: 1200px*/
+
+@media (max-width: 1200px) {
+    .containers {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .i img {
+        margin-left: 0;
+    }
+
+    .con p,
+    .nextcon {
+        margin-left: 0;
+    }
+}
+
+
+/*TABLET max-width: 992px */
+
+@media (max-width: 992px) {
+
+    .containers {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .con p,
+    .nextcon {
+        width: 250px;
+        margin: 20px auto;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .i img {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .i .contact p {
+        margin-left: 0;
+    }
+
+    .iicon p {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}
+
+
+/*MOBILE max-width: 600px */
+
+@media (max-width: 600px) {
+
+    .containers {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .con p,
+    .nextcon {
+        width: 90%;
+        margin: 10px;
+        height: auto;
+        font-size: 15px;
+    }
+
+    .i img {
+        width: 70%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .i .contact p {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .iicon p {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .foot p {
+        font-size: 15px;
+        height: auto;
+        padding: 15px 0;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="marque">
+        <marquee behavior="" direction="">📦Free Shipping All Over India🚚</marquee>
+    </div>
+    <nav>
+        <div class="logo">
+            <img src="./image/coffe_logo-removebg-preview.png" alt="">
+        </div>
+        <ul>
+            <li><a href="./coffee.html">HOME</a></li>
+            <li><a href="brew guide.html">BREW GUIDE</a></li>
+            <li><a href="cafe location.html">CAFE LOCATIONS</a></li>
+            <li><a href="about us.html">ABOUT US</a></li>
+            <li><a href="coffee journal.html">COFFEE JOURNAL</a></li>
+            <li><a href="roastery cofe menu.html">COFE MENU</a></li>
+        </ul>
+        <div class="icon">
+            <a href="./buttons.html"><i class="fa-solid fa-user"></i></a>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </nav>
+    <div class="video1">
+        <video src="./videos/How To Make Pour Over Coffee - SIMPLE V60 Brew Tutorial.mp4" loop muted autoplay></video>
+    </div>
+    <div class="paraaaa">
+        <p>These brew guides serve as a good place to begin brewing speciality coffee at home. The grinder and grind
+            size you use, coffee you choose and recipe ofcourse, everything plays a important role. Every coffee and its
+            brewing technique is different, so we have listed a standard recipe in the most simplest video form. Play
+            around with your brewer and parameters to get each coffee to taste just the way you like it.</p>
+    </div>
+
+    <div class="look1">
+        <div class="look0">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPxOfIUzzj5GXMz1QhinpVqHj9pLKdIVIfkg&s"
+                alt="">
+        </div>
+        <div class="look0">
+            <img src="https://images.pexels.com/photos/2453205/pexels-photo-2453205.jpeg?cs=srgb&dl=pexels-walk-snap-839320-2453205.jpg&fm=jpg"
+                alt="">
+        </div>
+        <div class="look0">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlXALhRh_VOj3xfzQBVC7hn_ctXYYXMCdzZA&s"
+                alt="">
+        </div>
+        <div class="look0">
+            <img src="https://marketplace.canva.com/EAE3ZQEPq2I/2/0/900w/canva-simple-aesthetic-coffee-time-instagram-instagram-BTsdS_U4hE4.jpg"
+                alt="">
+        </div>
+    </div>
+
+    <div class="content0">
+        <p>Coffee is more than just a beverage; it’s an experience that awakens the senses and connects people. From the
+            first aromatic whiff to the last comforting sip, every cup tells a story — of roasted beans, skilled hands,
+            and shared moments. Whether it’s a strong espresso, a creamy cappuccino, or a chilled frappe, coffee has the
+            power to turn an ordinary day into something special. <br><br>
+
+            Each brew begins with carefully selected beans, sourced from the finest plantations and roasted to
+            perfection. The rich flavors, smooth textures, and inviting aromas create a symphony of taste that energizes
+            the mind and soothes the soul. Coffee brings people together — friends catching up, professionals taking a
+            break, or dreamers finding inspiration in every sip.
+    </div>
+
+    <div class="imgs0">
+        <div class="img10">
+            <h1>COLD BREW</h1>
+        </div>
+        <div class="img11">
+            <h1>FRENCHPRESS</h1>
+        </div>
+        <div class="img12">
+            <h1>AEROPRESS</h1>
+        </div>
+        <div class="img13">
+            <h1>POUROVER</h1>
+        </div>
+    </div>
+    <a href="./documents/5.pdf"><button>View Our Guiden's</button></a>
+
+    <div class="content0">
+        <p>Coffee is more than just a beverage; it’s an experience that awakens the senses and connects people. From the
+            first aromatic whiff to the last comforting sip, every cup tells a story — of roasted beans, skilled hands,
+            and shared moments. Whether it’s a strong espresso, a creamy cappuccino, or a chilled frappe, coffee has the
+            power to turn an ordinary day into something special. <br><br>
+
+            Each brew begins with carefully selected beans, sourced from the finest plantations and roasted to
+            perfection. The rich flavors, smooth textures, and inviting aromas create a symphony of taste that energizes
+            the mind and soothes the soul. Coffee brings people together — friends catching up, professionals taking a
+            break, or dreamers finding inspiration in every sip. <br> <br>
+
+            Our passion for coffee goes beyond brewing; it’s about crafting moments of joy. Every cup we serve is made
+            with love, precision, and a commitment to quality. Whether you prefer it hot or cold, bold or mild, sweet or
+            strong — there’s always a coffee that matches your mood. Step in, slow down, and savor the flavor of life,
+            one cup at a time.</p>
+    </div>
+
+    <div class="poster0">
+        <img src="https://www.shutterstock.com/image-vector/cold-brew-coffee-ads-retro-600nw-1833017917.jpg" alt="">
+    </div>
+
+    
+
+    
+
+    <div class="containers">
+        <div class="i">
+            <img src="./image/coffe_logo-removebg-preview.png" alt="">
+            <div class="contact">
+                <p>CONTACT</p>
+                <p>CALL: +91-6374855396</p>
+                <p>GMAIL: anandh8553@gmail.com</p>
+            </div>
+        </div>
+
+
+        <div class="con">
+            <p>COMPANY <br><br>
+                ABOUT US <br><br>
+                MEDIA <br><br>
+                CAFE LOCATIONS <br><br>
+                BREW GUIDE <br><br>
+                CONTACT US</p>
+        </div>
+        <div class="nextcon">
+            <p>OUR POLICIES <br><br>
+                TERMS & CONDITIONS <br><br>
+                PRIVACY POLICY <br><br>
+                SHIPPING POLICY <br><br>
+                RETURN POLICY</p><br>
+        </div>
+        <div class="iicon">
+            <p>FOLLOW US <br><i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-linkedin"></i> <i
+                    class="fa-brands fa-square-instagram"></i> <i class="fa-brands fa-square-youtube"></i></p>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <p>&copy copywrite2025 | a unit of Anandh</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

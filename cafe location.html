@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./coffee shop web project.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        .poster1 img {
+            width: 100%;
+            height: 500px;
+            margin-bottom: 10px;
+        }
+
+        .title0 h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-family: "Bonheur Royale", cursive;
+        }
+
+        .content0 p {
+            text-align: center;
+            font-family: "Bonheur Royale", cursive;
+        }
+        
+        .imgs1 {
+            background-image: url(./image/Jaipur.jpg);
+            height: 400px;
+            transition-property: all;
+            transition-duration: 3s;
+            transition-timing-function: ease;
+            transition-timing-function: cubic-bezier();
+            width: 400px;
+            background-size: cover;
+            box-shadow: 0px 0px 15px 5px black;
+
+        }
+
+        .imgs2 {
+            background-image: url(./image/15.jpg);
+            height: 400px;
+            width: 400px;
+            background-size: cover;
+            box-shadow: 0px 0px 15px 5px black;
+        }
+
+        .imgs3 {
+            background-image: url(./image/11.jpg);
+            height: 400px;
+            width: 400px;
+            background-size: cover;
+            box-shadow: 0px 0px 15px 5px black;
+        }
+
+        .imgs4 {
+            background-image: url(./image/hydra.jpeg);
+            height: 400px;
+            width: 400px;
+            background-size: cover;
+            margin-top: 30px;
+            box-shadow: 0px 0px 15px 5px black;
+        }
+
+        .imgs5 {
+            background-image: url(./image/12.jpg);
+            height: 400px;
+            width: 400px;
+            background-size: cover;
+            margin-top: 30px;
+            box-shadow: 0px 0px 15px 5px black;
+        }
+
+        .imgs6 {
+            background-image: url(./image/14.jpg);
+            height: 400px;
+            width: 400px;
+            background-size: cover;
+            margin-top: 30px;
+            box-shadow: 0px 0px 15px 5px black;
+        }
+
+        .imgs1 h1 {
+            padding-top: 150px;
+            color: white;
+            font-family: "Bonheur Royale", cursive;
+        }
+
+        .imgs2 h1 {
+            padding-top: 150px;
+            color: white;
+            font-family: "Bonheur Royale", cursive;
+        }
+
+        .imgs3 h1 {
+            padding-top: 150px;
+            color: white;
+            font-family: "Bonheur Royale", cursive;
+        }
+
+        .imgs4 h1 {
+            padding-top: 150px;
+            color: white;
+            font-family: "Bonheur Royale", cursive;
+        }
+
+        .imgs5 h1 {
+            padding-top: 150px;
+            color: white;
+            font-family: "Bonheur Royale", cursive;
+        }
+
+        .imgs6 h1 {
+            padding-top: 150px;
+            color: white;
+            font-family: "Bonheur Royale", cursive;
+        }
+
+        .all {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .content1 p {
+            text-align: center;
+            font-family: "Bonheur Royale", cursive;
+            margin-top: 40px;
+        }
+
+        .famous h1{
+             text-align: center;
+            font-family: "Bonheur Royale", cursive;
+            margin-top: 40px;
+        }
+
+        .look0 {
+            margin-left: 30px;
+            width: 400px;
+            margin-top: 50px;
+        }
+
+        .look0 img {
+            width: 300px;
+            border-radius: 20px;
+            height: 400px;
+        }
+
+        .look1 {
+            display: flex;
+        }
+
+        .look0 img:hover {
+            transform: scale(1.1);
+        }
+
+        .containers {
+            display: flex;
+        }
+
+        .con p {
+            height: 200px;
+            text-align: center;
+            width: 200px;
+            margin-top: 130px;
+            margin-left: 100px;
+
+
+        }
+
+        .nextcon {
+            height: 200px;
+            text-align: center;
+            width: 200px;
+            margin-top: 130px;
+            margin-left: 100px;
+        }
+
+        .i img {
+            height: 150px;
+            width: 200px;
+            margin-top: 100px;
+            margin-left: 120px;
+        }
+
+        .i .contact p {
+            text-align: center;
+            margin-left: 110px;
+            height: 30px;
+        }
+
+        .iicon p {
+            margin-top: 180px;
+            margin-left: 110px;
+        }
+
+        .iicon p i {
+            margin-top: 10px;
+            height: 20px;
+            width: 20px;
+
+        }
+
+        .foot p {
+            background-color: rgb(82, 14, 14);
+            height: 50px;
+            border: 1px solid;
+            text-align: center;
+            padding-top: 16px;
+            color: white;
+            margin-top: 30px;
+        }
+
+
+        /* Tablet 600px–992px */
+@media (max-width: 992px) {
+    .containers, .look1, .all, .imgs0 {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .con p, .nextcon, .i img {
+        margin-left: 0;
+        width: 45%;
+        height: auto;
+    }
+
+    .i .contact p {
+        margin-left: 0;
+    }
+
+    .iicon p {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .look0, .imgs1, .imgs2, .imgs3, .imgs4, .imgs5, .imgs6 {
+        width: 48%;
+    }
+
+    .look0 img, .img10, .img11, .img12, .img13 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile 0px–600px */
+@media (max-width: 600px) {
+    .containers, .look1, .all, .imgs0 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .con p, .nextcon, .i img, .look0, .imgs1, .imgs2, .imgs3, .imgs4, .imgs5, .imgs6 {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .i .contact p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .iicon p {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .foot p {
+        font-size: 13px;
+        height: auto;
+        padding: 12px 0;
+    }
+
+    a button, .bit button, .imgss1 button, .imgss2 button, .imgss3 button, .imgss4 button, .imgss5 button, .imgss6 button {
+        margin-left: 0;
+        width: 80%;
+    }
+}
+
+/* Large Desktop 1024px */
+@media (min-width: 1024px) {
+    .look1 {
+        display: flex;
+    }
+
+    .look0 img {
+        width: 300px;
+        height: 400px;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="marque">
+        <marquee behavior="" direction="">📦Free Shipping All Over India🚚</marquee>
+    </div>
+    <nav>
+        <div class="logo">
+            <img src="./image/coffe_logo-removebg-preview.png" alt="">
+        </div>
+        <ul>
+            <li><a href="./coffee.html">HOME</a></li>
+            <li><a href="brew guide.html">BREW GUIDE</a></li>
+            <li><a href="cafe location.html">CAFE LOCATIONS</a></li>
+            <li><a href="about us.html">ABOUT US</a></li>
+            <li><a href="coffee journal.html">COFFEE JOURNAL</a></li>
+            <li><a href="roastery cofe menu.html">COFE MENU</a></li>
+        </ul>
+        <div class="icon">
+            <a href="./buttons.html"><i class="fa-solid fa-user"></i></a>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </nav>
+    <!-- poster -->
+
+    <div class="poster1">
+        <img src="https://levista.in/cdn/shop/articles/coffee-bean-story.jpg?v=1739253069" alt="">
+    </div>
+
+    <div class="content0">
+        <p>Welcome to our coffee shop a cozy space where aroma meets artistry. Every cup we serve is brewed with
+            passion, crafted from freshly roasted beans and perfected with care. Whether you crave a bold espresso, a
+            creamy latte, or a refreshing cold brew, our menu offers something for every mood. It’s more than coffee;
+            it’s a moment of comfort, creativity, and connection. Sit back, relax, and let the rich flavors and warm
+            ambiance inspire you. At our coffee shop, every sip tells a story your story, brewed to perfection.</p>
+    </div>
+
+    <div class="title0">
+        <h1>LOCATION</h1>
+    </div>
+    <div class="all">
+        <div class="imgs1">
+            <h1>LUCKNOW</h1>
+        </div>
+        <div class="imgs2">
+            <h1>HYDRABAD</h1>
+        </div>
+        <div class="imgs3">
+            <h1>DELHI</h1>
+        </div>
+        <div class="imgs4">
+            <h1>CHENNAI</h1>
+        </div>
+        <div class="imgs5">
+            <h1>COIAMBATORE</h1>
+        </div>
+        <div class="imgs6">
+            <h1>MADURAI</h1>
+        </div>
+    </div>
+
+    <div class="content1">
+        <p>Step into our coffee shop, where every cup is crafted for the modern coffee lover. We blend premium beans,
+            fresh ingredients, and a passion for perfection to create drinks that spark joy in every sip. From classic
+            brews to creative blends, our menu is designed to fuel your day and lift your mood. Whether you’re catching
+            up with friends, working on ideas, or simply unwinding, our cozy space is your perfect coffee destination.
+            Taste the difference, feel the vibe, and make every moment memorable — one cup, one conversation, one smile
+            at a time. <br> <br>
+            There’s magic in every cup we brew — the kind that warms your heart and slows down time. Our coffee shop is
+            where love meets aroma, and every sip feels like a quiet embrace. From the gentle pour of espresso to the
+            swirl of cream, each detail is crafted with passion and care. Whether it’s a cozy date, a thoughtful
+            morning, or a dreamy evening alone, our space invites you to savor the little moments. Come, fall in love
+            with the aroma, the flavor, and the feeling — because every love story begins with coffee.
+        </p>
+
+    </div>
+    <div class="famous">
+    <h1>OUR FAMOUS COFFEE SHOP'S</h1>
+    </div>
+
+    <div class="look1">
+        <div class="look0">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/a4/4d/8c/caption.jpg?w=300&h=300&s=1"
+                alt="">
+        </div>
+        <div class="look0">
+            <img src="https://www.fabhotels.com/blog/wp-content/uploads/2018/09/places-vist-in-Chennai-600.jpg"
+                alt="">
+        </div>
+        <div class="look0">
+            <img src="https://toursinindia.in/images/tourist-places/madurai/01.webp"
+                alt="">
+        </div>
+        <div class="look0">
+            <img src="https://www.goindigo.in/content/dam/s6web/in/en/assets/Destinations/destinations/delhi/del.png"
+                alt="">
+        </div>
+    </div>
+
+    <div class="containers">
+        <div class="i">
+            <img src="./image/coffe_logo-removebg-preview.png" alt="">
+            <div class="contact">
+                <p>CONTACT</p>
+                <p>CALL: +91-6374855396</p>
+                <p>GMAIL: anandh8553@gmail.com</p>
+            </div>
+        </div>
+
+
+        <div class="con">
+            <p>COMPANY <br><br>
+                ABOUT US <br><br>
+                MEDIA <br><br>
+                CAFE LOCATIONS <br><br>
+                BREW GUIDE <br><br>
+                CONTACT US</p>
+        </div>
+        <div class="nextcon">
+            <p>OUR POLICIES <br><br>
+                TERMS & CONDITIONS <br><br>
+                PRIVACY POLICY <br><br>
+                SHIPPING POLICY <br><br>
+                RETURN POLICY</p><br>
+        </div>
+        <div class="iicon">
+            <p>FOLLOW US <br><i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-linkedin"></i> <i
+                    class="fa-brands fa-square-instagram"></i> <i class="fa-brands fa-square-youtube"></i></p>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <p>&copy copywrite2025 | a unit of Anandh</p>
+        </div>
+    </footer>
+</body>
+
+</html>
